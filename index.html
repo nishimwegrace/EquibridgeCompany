@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EQUIBRIDGE CARE Support Services | Melbourne Based Care</title>
+    <meta name="description"
+        content="Professional and compassionate support services in Melbourne. Helping individuals live independently with daily living, community participation, and more.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <img src="assets/images/logo-bridge.png" alt="logo"> EQUIBRIDGE<span>CARE</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-us">Why Choose Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-cta">
+            <a href="#contact" class="btn btn-primary btn-support">Get Support Now</a>
+        </div>
+        <button class="dark-toggle" id="dark-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <div class="mobile-toggle" id="mobile-toggle" style="display: none;">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="section-tag" style="color: var(--primary-color);">Welcome to EQUIBRIDGE CARE</span>
+                <h1>We’re Here to <br>Support You</h1>
+                <p>Melbourne-based support company helping individuals live independently and participate fully in their
+                    community with compassionate care.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero.png" alt="Compassionate Caregiver assisting elderly">
+            </div>
+        </div>
+        <div class="quick-contact">
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+61 (0) 400 000 000</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>info@equibridgecare.com.au</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Melbourne, VIC</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-split">
+                <div class="about-image">
+                    <img src="assets/images/about.png" alt="EQUIBRIDGE CARE Team">
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">Empowering Lives Through Compassion</h2>
+                    <p>At EQUIBRIDGE CARE Support Services, we believe that everyone deserves to live a fulfilling and
+                        independent life. Our mission is to provide high-quality, person-centered support that enables
+                        our clients to achieve their goals and thrive in their local community.</p>
+                    <p style="margin-top: 20px;">With a team of experienced and dedicated support workers, we bring a
+                        friendly and warm approach to every individual we serve, ensuring their safety, comfort, and
+                        happiness.</p>
+                    <a href="#services" class="btn btn-accent" style="margin-top: 30px;">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">Our Services</h2>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-user-check"></i></div>
+                    <h3>Daily Living & Personal Care</h3>
+                    <ul>
+                        <li>Grooming & Hygiene</li>
+                        <li>Meal Preparation</li>
+                        <li>Medication Support</li>
+                    </ul>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-users"></i></div>
+                    <h3>Community Participation</h3>
+                    <ul>
+                        <li>Social Outings</li>
+                        <li>Recreational Activities</li>
+                        <li>Transport Assistance</li>
+                    </ul>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Life Skills Development</h3>
+                    <ul>
+                        <li>Budgeting & Planning</li>
+                        <li>Communication Skills</li>
+                        <li>Cooking & Housekeeping</li>
+                    </ul>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-home"></i></div>
+                    <h3>Household & Domestic Support</h3>
+                    <ul>
+                        <li>General Cleaning</li>
+                        <li>Laundry & Linen</li>
+                        <li>Gardening Support</li>
+                    </ul>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-bed"></i></div>
+                    <h3>Supported Independent Living (SIL)</h3>
+                    <ul>
+                        <li>24/7 Support</li>
+                        <li>Shared Accommodation</li>
+                        <li>Personalized Care Plans</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <span class="section-tag" style="color: var(--white); opacity: 0.8;">The EQUIBRIDGE CARE
+                    Difference</span>
+                <h2 class="section-title" style="color: var(--white);">We Care, You Thrive</h2>
+            </div>
+            <div class="why-us-grid">
+                <div class="why-item">
+                    <div class="why-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h4>Compassionate Support</h4>
+                    <p>We treat every client like family, with genuine care and respect.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Trusted & Reliable</h4>
+                    <p>You can count on us to be there when you need us most.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fas fa-user-tie"></i></div>
+                    <h4>Experienced Team</h4>
+                    <p>Our staff are highly trained professionals in the support industry.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fas fa-sliders-h"></i></div>
+                    <h4>Flexible & Personalised</h4>
+                    <p>Support plans tailored specifically to your unique needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <img src="assets/images/client1.png" alt="Client 1" class="client-img">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"EQUIBRIDGE CARE has truly changed my life. The support workers are so
+                        kind
+                        and they really listen to what I need."</p>
+                    <div class="client-name">Sarah Johnson</div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <img src="assets/images/client2.png" alt="Client 2" class="client-img">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"I love how flexible they are. Whenever I have a change in schedule,
+                        they are always ready to accommodate me."</p>
+                    <div class="client-name">Michael Chen</div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80"
+                        alt="Client 3" class="client-img">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The best support company in Melbourne. They helped me find my
+                        independence and I couldn't be happier."</p>
+                    <div class="client-name">Emma Williams</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" style="text-align: center;">
+        <div class="container">
+            <h2 class="section-title">Let’s Create a Better <br>Everyday Together</h2>
+            <p style="margin-bottom: 40px; color: var(--text-light); font-size: 1.2rem;">Reach out to us today and
+                discover how we can support you or your loved ones.</p>
+            <a href="#contact" class="btn btn-primary btn-support">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+61 (0) 400 000 000</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@equibridgecare.com.au</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Melbourne, Victoria, Australia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="from_name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="from_email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-accent" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">EQUIBRIDGE CARE</div>
+                    <p>Melbourne-based support company helping individuals live independently through compassionate and
+                        professional care.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Daily Living</a></li>
+                        <li><a href="#">Community Participation</a></li>
+                        <li><a href="#">Life Skills</a></li>
+                        <li><a href="#">Domestic Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>Melbourne, VIC</li>
+                        <li>+61 400 000 000</li>
+                        <li>info@equibridgecare.com.au</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EQUIBRIDGE CARE Support Services. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
